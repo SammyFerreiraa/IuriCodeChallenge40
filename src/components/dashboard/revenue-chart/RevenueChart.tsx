@@ -1,8 +1,8 @@
 const RevenueChart = () => {
   return (
-    <div className="bg-white pt-5 pl-8 pr-14 pb-11 rounded-xl">
+    <div className="bg-white pt-5 pl-8 pr-14 pb-11 rounded-xl flex flex-col sm:items-center 2xl:items-start">
       <p className="mb-5 text-xl">Gráfico de receitas</p>
-      <div className="flex flex-row gap-8">
+      <div className="flex flex-row gap-8 justify-center w-full">
         <div className="flex flex-col text-base text-stone-500 gap-4">
           <p>2000</p>
           <p>1000</p>
@@ -26,10 +26,10 @@ const RevenueChart = () => {
           <div className="w-8 h-36 bg-violet-500 bg-opacity-25 rounded-md relative flex items-center justify-center">
             <p className="absolute -bottom-6">Jun</p>
           </div>
-          <div className="w-8 h-full bg-violet-500 bg-opacity-25 rounded-md relative flex items-center justify-center">
+          <div className="w-8 h-full bg-violet-500 bg-opacity-25 rounded-md relative hidden items-center justify-center sm:flex">
             <p className="absolute -bottom-6">Jul</p>
           </div>
-          <div className="w-8 h-14 bg-violet-500  rounded-md relative flex items-center justify-center">
+          <div className="w-8 h-14 bg-violet-500  rounded-md relative hidden sm:flex items-center justify-center">
             <p className="absolute -bottom-6">Ago</p>
           </div>
         </div>

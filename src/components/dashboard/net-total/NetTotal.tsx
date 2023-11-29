@@ -3,7 +3,7 @@ import React from 'react'
 
 const NetTotal = () => {
   return (
-    <div className="bg-white p-4 rounded-xl w-full">
+    <div className="bg-white p-4 rounded-xl w-full h-full flex flex-col justify-evenly">
       <p className="text-base">Total líquido</p>
       <div className="flex flex-col gap-3">
         <p className="text-2xl font-semibold">R$ 2.825,28</p>

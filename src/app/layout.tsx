@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex h-screen`}>
+      <body className={`${inter.className} relative flex h-screen bg-gray-100`}>
         <AsideNav />
         {children}
       </body>

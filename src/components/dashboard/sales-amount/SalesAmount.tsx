@@ -3,7 +3,7 @@ import React from 'react'
 
 const SalesAmount = () => {
   return (
-    <div className="bg-white p-4 rounded-xl w-full">
+    <div className="bg-white p-4 rounded-xl w-full flex flex-col justify-evenly h-full">
       <p className="text-base w-full">Total de vendas</p>
       <div className="flex flex-col gap-3">
         <p className="text-2xl font-semibold">R$ 3.235,21</p>
